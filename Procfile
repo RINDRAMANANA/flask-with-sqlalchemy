@@ -1,3 +1,3 @@
 # Procfile
 
-web: gunicorn app.wsgi
+web: gunicorn wsgi:app --access-logfile=-
